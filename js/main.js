@@ -22,11 +22,11 @@ if (eta >= "60") {
 } else if (eta < "20") {
     prezzo_Under20;
     console.log ("Prezzo per under 20 " + prezzo_Under20.toFixed(2));
-    document.getElementById("ticket").innerHTML = `Il prezzo del tuo biglietto è: ${prezzo_Over60.toFixed(2)} €`;
+    document.getElementById("ticket").innerHTML = `Il prezzo del tuo biglietto è: ${prezzo_Under20.toFixed(2)} €`;
 } else {
     prezzoDistanzaPercorsa;
     console.log (prezzoDistanzaPercorsa.toFixed(2));
-    document.getElementById("ticket").innerHTML = `Il prezzo del tuo biglietto è: ${prezzo_Over60.toFixed(2)} €`;
+    document.getElementById("ticket").innerHTML = `Il prezzo del tuo biglietto è: ${prezzoDistanzaPercorsa.toFixed(2)} €`;
 };
 
 
