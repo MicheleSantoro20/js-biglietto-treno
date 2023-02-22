@@ -1,5 +1,13 @@
+//  SCRIPT PER CREAZIONE CALCOLATORE DI PREZZO PER BIGLIETTO DEL TRENO
+
+
+//  PARAMETRI INIZIALI RELATIVI ALL'ETA' ED AI KM DA EFFETTUARE
+
 const km = parseInt(prompt("Inserisci qui i Kilometri che intendi percorrere"));
 const eta = parseInt(prompt("Inserisci qui la tua età"));
+
+//  FINE PARAMETRI INIZIALI RELATIVI ALL'ETA' ED AI KM DA EFFETTUARE
+
 const prezzoKm = "0.21";
 
 document.getElementById("n-km").innerHTML = `I km che vuoi percorrere sono: ${km} km`;
