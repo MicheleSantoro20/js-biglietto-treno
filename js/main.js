@@ -16,9 +16,9 @@ document.getElementById("age").innerHTML = `La tua età è: ${eta} Anni`;
 
 let prezzoDistanzaPercorsa = km * prezzoKm;
 
-const prezzo_Over65 = prezzoDistanzaPercorsa / 100 * 65;
+const prezzo_Over65 = prezzoDistanzaPercorsa / 100 * 60;
 
-const prezzo_Under18 = prezzoDistanzaPercorsa / 100 * 82;
+const prezzo_Under18 = prezzoDistanzaPercorsa / 100 * 80;
 
 console.log("Prezzo per Km: " + prezzoDistanzaPercorsa);
 
